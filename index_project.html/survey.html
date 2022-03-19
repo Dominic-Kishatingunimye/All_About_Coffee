@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <style>
+        .Developer {
+            color: grey;
+        }
+        .submit {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All about Coffee</h1>
+        <p class="Developer">Dominic Kishatingunimye</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roasting.html">Coffee Roasting</a></li>
+                <li><a href="grinding.html">Coffe Grinding</a></li>
+                <li><a href="brewing.html">Coffee brewing</a></li>
+                <li><a href="drinks.html">Coffee Drinks</a></li>
+                <li><a href="survey.html">Coffee Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Coffee Survey</h1>
+    <aside>
+        <figure>
+            <img src="/images/espresso.jpg" alt="a cup of espresso">
+        </figure>
+    </aside>
+    <Form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Your Name</label>
+            <br>
+            <input type="name" name="name" required size="40">
+            <br>
+            <label for="Email">Email Address</label>
+            <br>
+            <input type="email" name="email" placeholder="enter a valid email here" required size="40">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Your Coffee Preferences</legend>
+            <label for="grind">Tell us your coffee preparation methods.</label>
+            <br>
+                <textarea name="prepartion" id="" cols="40" rows="6"></textarea> 
+                <br>
+                <label for="">Do you grind your own beans?</label> 
+                <br>
+            <input type="radio" name="grind"> yes
+            <br>
+            <input type="radio" name="grind"> no
+            <br>
+            <label for="drink">How do you drink your coffee?</label>
+            <br>
+            <input type="checkbox" name="drink"> with sugar
+            <br>
+            <input type="checkbox" name="drink"> with cream
+            <br>
+            <label for="favorite">What is your favorite coffee drink?</label> 
+            <br>
+            <select name="favorite" id="">
+                <option value="">please select a drink</option>
+                <option value="drip" drip coffee></option>
+                <option value="french">french press</option>
+                <option value="latte">espresso latte</option>
+                <option value="flavoured">flavored</option>
+            </select>
+        </fieldset>
+        <input class="submit" type="submit" name="send" >
+        
+    </Form>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="roasting.html">Coffee Roasting</a></li>
+            <li><a href="grinding.html">Coffe Grinding</a></li>
+            <li><a href="brewing.html">Coffee brewing</a></li>
+            <li><a href="drinks.html">Coffee Drinks</a></li>
+            <li><a href="survey.html">Coffee Survey</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
