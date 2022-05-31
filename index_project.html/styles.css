@@ -2,6 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   width: 960px;
+  display: flex;
+  flex-wrap: wrap;
 }
 header {
   background-image: url(images/coffee-beans.jpg);
