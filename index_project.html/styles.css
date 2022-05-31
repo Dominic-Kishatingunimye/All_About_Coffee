@@ -1,3 +1,7 @@
+* {
+  display: flex;
+  flex-wrap: wrap;
+}
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
