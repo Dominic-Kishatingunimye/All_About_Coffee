@@ -1,5 +1,6 @@
 * {
   display: flex;
+  flex-basis: auto;
   flex-wrap: wrap;
 }
 body {
